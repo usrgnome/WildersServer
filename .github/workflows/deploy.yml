@@ -43,7 +43,6 @@ jobs:
                   script: |
                       source ~/.bashrc
                       cd /home/user/nodeapp/build/server/
-                      cat ~/.env
                       cp ~/.env /home/user/nodeapp/build/server
                       nvm use 18
                       npm i forever -g
