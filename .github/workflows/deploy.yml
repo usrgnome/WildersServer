@@ -3,7 +3,7 @@ name: Deploy Game Server
 on:
     push:
         branches:
-            - prod
+            - main
 
 jobs:
     deploy:
