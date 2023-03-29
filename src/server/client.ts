@@ -12,7 +12,7 @@ import {
     C_Stats,
 } from './ecs';
 import GameApi from './api';
-import { ECS_NULL } from './Constants';
+import { ECS_NULL } from './constants';
 
 const DIRECTION = {
     NONE: 0,

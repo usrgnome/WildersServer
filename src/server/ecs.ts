@@ -9,7 +9,7 @@ import { ENTITY_INFO, toMeters, toPixels } from '../shared/config';
 import { ENTITY } from '../shared/EntityTypes';
 import { ITEM, ITEMS, ITEM_CATEGORY } from '../shared/Item';
 import { lerp, lerpAngle } from '../shared/Utilts';
-import { ECS_NULL } from './Constants';
+import { ECS_NULL } from './constants';
 import { Attack, MeeleAttack } from './entity';
 import World from './world';
 

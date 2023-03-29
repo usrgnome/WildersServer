@@ -4,7 +4,7 @@ import { Item } from '../shared/Item';
 import GameApi, { ServerPayload } from './api';
 import { ClientManager, Client } from './client';
 import CommandManager from './command';
-import { ECS_NULL } from './Constants';
+import { ECS_NULL } from './constants';
 import { C_CLIENT, C_PHYS_CONTROLLER, C_SCORE } from './ecs';
 import World from './world';
 

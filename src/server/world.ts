@@ -30,7 +30,7 @@ import {
 } from './ecs';
 import GameMap from './map';
 import { IFixtureUserData, SpawnPoint } from './types';
-import { COLLISION_TAG, ECS_NULL } from './Constants';
+import { COLLISION_TAG, ECS_NULL } from './constants';
 
 export default class World {
     entities = new EntityManager(this);

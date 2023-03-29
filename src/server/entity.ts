@@ -67,7 +67,7 @@ import {
     S_TickEquipCooldown,
 } from './ecs';
 import { WolfPhysicsController } from './controllers/wolf_controller';
-import { CID_NULL, COLLISION_MASK, COLLISION_TAG, ECS_NULL } from './Constants';
+import { CID_NULL, COLLISION_MASK, COLLISION_TAG, ECS_NULL } from './constants';
 import { IFixtureUserData } from './types';
 import { ServerInventory } from './inventory';
 

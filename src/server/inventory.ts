@@ -1,7 +1,7 @@
 import { Inventory, Stack } from "../shared/inventory";
 import { Item } from "../shared/Item";
 import { Client } from "./client";
-import { ECS_NULL } from "./Constants";
+import { ECS_NULL } from "./constants";
 
 export class ServerInventory extends Inventory {
     client: Client = null;

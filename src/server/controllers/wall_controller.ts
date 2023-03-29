@@ -2,7 +2,7 @@ import { b2Body, b2BodyDef, b2BodyType, b2CircleShape, b2FixtureDef, b2Vec2 } fr
 import { toMeters } from "../../shared/config";
 import World from "../world";
 import { PhysicsBodyController } from "./controller";
-import { COLLISION_MASK, COLLISION_TAG } from "../Constants";
+import { COLLISION_MASK, COLLISION_TAG } from "../constants";
 import { IBodyUserData, IFixtureUserData } from "../types";
 
 const RADIUS = 60;
