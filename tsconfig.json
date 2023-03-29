@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "server/build",
+    "module": "commonjs",
+    "lib": [
+      "es2016",
+      "es6",
+      "dom"
+    ],
+    "target": "es6",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true
+  },
+  "include": [
+    "src/server/**/*.ts",
+    "src/server/server/NanoTimer.js",
+    "src/shared/inventory.ts"
+  ]
+}

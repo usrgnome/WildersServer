@@ -1,0 +1,8 @@
+.env
+dist
+deploy
+logs
+**/build/
+node_modules
+*.log
+build
