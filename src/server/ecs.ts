@@ -292,7 +292,7 @@ export function S_PlayerAttack(world: World, ecsWorld: IWorld, delta: number) {
 
 				if (item.meelee) {
 					const angle = C_ENTITY.angle[eid];
-					const range = toMeters(50);
+					const range = toMeters(120);
 					const x = position.x + Math.cos(angle) * range;
 					const y = position.y + Math.sin(angle) * range;
 					let attack: Attack;

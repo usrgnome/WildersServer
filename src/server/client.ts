@@ -404,7 +404,6 @@ export class Client {
         }
 
         if (this.getSpectateEID() !== ECS_NULL) {
-            console.log('got spectate eid!', this.eid, this.getSpectateEID());
             const spectateEid = this.getSpectateEID();
 
             if (C_ENTITY.depth[spectateEid] !== this.lastDepth) {

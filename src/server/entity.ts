@@ -558,7 +558,7 @@ export class EntityManager {
     }
 
     defHitreward (eid: number, item: Item, quantity: number, score: number = 0) {
-        this.addComponent(eid, C_HIT_FILTER);
+        this.addComponent(eid, C_HIT_REWARD);
         C_HIT_REWARD.item[eid] = item.id;
         C_HIT_REWARD.quantity[eid] = quantity;
         C_HIT_REWARD.score[eid] = score;

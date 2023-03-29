@@ -51,7 +51,7 @@ export class ItemPhysicsController extends PhysicsBodyController {
 
         const hitboxUserData: IFixtureUserData = {
             eid: this.eid,
-            tag: COLLISION_TAG.ITEM,
+            tag: COLLISION_TAG.BODY,
             controller: this,
         }
 
